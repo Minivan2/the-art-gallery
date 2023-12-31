@@ -13,7 +13,7 @@ export default function NavBar() {
           <a href="#contact">Contact</a>
         </div>
         <div className="navRight">
-          <span class="material-symbols-outlined">account_circle</span>
+          <a href="" className="user">User</a>
         </div>
       </nav>
   )

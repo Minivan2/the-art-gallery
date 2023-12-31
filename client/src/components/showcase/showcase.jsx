@@ -2,7 +2,7 @@ import "./showcase.css";
 
 export default function Showcase() {
   return (
-    <div class='showcase'>
+    <div class='card-container'>
         <div class='card'>
             <div className="image">
                 <img src="https://artincontext.org/wp-content/uploads/2021/10/Asian-Artwork.avif" alt="A landscape painting depicting a valley"/>
