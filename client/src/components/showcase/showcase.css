@@ -1,0 +1,30 @@
+.showcase {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+}
+
+.card {
+    max-width: 80%;
+    margin: 20px;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    background-color: white;
+}
+
+.card img {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.text h3, h5, p {
+    padding-top: 10px;
+}
+
+.text p {
+    display:flex;
+    align-items: center;
+}
