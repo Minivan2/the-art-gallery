@@ -1,17 +1,9 @@
-import './App.css';
+import NavBar from './components/navBar/navBar';
 
 function App() {
   return (
-    <main> 
-      <header>
-        <div className="topbar">
-          <a href="" class="logo">The Blog</a>
-        </div>
-        <nav>
-          <a href="" className="login">Login</a>
-          <a href="" className="register">Register</a>
-        </nav>
-      </header>
+    <main>
+      <NavBar/>
     </main>
   );
 }

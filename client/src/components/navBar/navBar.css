@@ -1,0 +1,30 @@
+body{
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  padding: 10px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+  }
+  
+nav div.center {
+  display: inline-flex;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a.logo {
+  font-weight: bold;
+}
