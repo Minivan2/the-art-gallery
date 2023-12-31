@@ -1,5 +1,6 @@
 body{
   color: #333;
+  background: rgb(249, 250, 252);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -14,6 +15,7 @@ nav {
   
 nav a {
   text-decoration: none;
+  color: #000;
 }
 
 nav a.logo {
