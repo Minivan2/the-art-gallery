@@ -1,4 +1,4 @@
-import "./home.css";
+import "./gallery.css";
 
 export default function Home() {
   return (
