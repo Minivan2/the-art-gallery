@@ -31,6 +31,10 @@
     align-items: center;
 }
 
+.text .title{
+    cursor: pointer;
+}
+
 .image {
     display:flex;
     justify-content: center;
