@@ -1,6 +1,6 @@
-import "./showcase.css";
+import "./home.css";
 
-export default function Showcase() {
+export default function Home() {
   return (
     <div class='card-container'>
         <div class='card'>

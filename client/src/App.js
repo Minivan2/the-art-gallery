@@ -1,12 +1,12 @@
 import './App.css';
-import NavBar from './components/navBar/navBar';
-import Showcase from './components/showcase/showcase';
+import NavBar from './components/navBar/NavBar';
+import Home from './components/home/Home';
 
 function App() {
   return (
     <main>
       <NavBar />
-      <Showcase />
+      <Home />
     </main>
   );
 }
