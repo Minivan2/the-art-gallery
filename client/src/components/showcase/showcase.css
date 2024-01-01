@@ -1,17 +1,9 @@
 .card-container {
+    max-width: 1600px;
     display: grid;
     margin: 0 auto;
-    gap: .5rem;
     align-items: center;
     justify-content: center;
-}
-
-@media (min-width: 600px) {
-    .card-container { grid-template-columns: repeat(2, 1fr); }
-  }
-  
-@media (min-width: 900px) {
-    .card-container { grid-template-columns: repeat(3, 1fr); }
 }
 
 .card {
@@ -20,6 +12,14 @@
     margin: 20px;
     padding: 20px;
     background-color: white;
+}
+
+@media (min-width: 600px) {
+    .card-container { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+@media (min-width: 900px) {
+    .card-container { grid-template-columns: repeat(3, 1fr); }
 }
 
 .text h3, h5, p {
