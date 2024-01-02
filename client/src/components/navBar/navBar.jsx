@@ -9,10 +9,10 @@ export default function NavBar() {
         </div>
         <div className="navCenter">
           <ul className="navList">
-            <li className='navListItem'>Home</li>
-            <li className='navListItem'>About</li>
-            <li className='navListItem'>Showcase</li>
-            <li className='navListItem'>Contact</li>
+            <li className='navListItem'><a href="home"></a>Home</li>
+            <li className='navListItem'><a href="about"></a>About</li>
+            <li className='navListItem'><a href="showcase"></a>Showcase</li>
+            <li className='navListItem'><a href="contact"></a>Contact</li>
           </ul>
         </div>
         <div className="navRight">

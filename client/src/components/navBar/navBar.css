@@ -7,7 +7,7 @@ nav {
   border-bottom: 1px solid #e6e6e6;
 }
   
-nav a {
+.navList a {
   text-decoration: none;
   color: #000;
 }

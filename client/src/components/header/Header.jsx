@@ -3,10 +3,12 @@ import imageSrc from '../../assets/images/header-bg.jpg';
 
 export default function Header() {
   return (
-    <div className='header-container'>
-      <div className="headerImg">
-        <img src={imageSrc} alt="Header background" className='header-bg'/>
+    <section className='header'>
+      <div className='header-container'>
+        <div className="background">
+          <img src={imageSrc} alt="Header background"/>
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
