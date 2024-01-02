@@ -7,7 +7,7 @@ export default function ArtPost() {
   return (
     <section className='artPost'>
       <div className="post-container">
-        <div className="img">
+        <div className="artImg">
           <img src={imageSrc} alt=""/>
         </div>
         <div className="buttons">

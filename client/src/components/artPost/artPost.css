@@ -5,19 +5,19 @@
     flex-direction: column;
 }
 
-.img {
+.artImg {
     display: flex;
     justify-content: center;
 }
 
-img {
+.artImg img {
     max-width: 100%;
     object-fit: cover;
     border-radius: 2rem;
 }
 
 @media (min-width: 1400px) {
-    img {
+    .artImg img {
         max-width: 50%;
     }
 }
