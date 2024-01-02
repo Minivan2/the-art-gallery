@@ -1,7 +1,7 @@
 .post-container {
     max-width: 100%;
     margin: 0 auto;
-    padding: 15px;
+    padding: 20px 40px;
     display:flex;
     flex-direction: column;
 }
@@ -20,6 +20,18 @@ img {
 @media (min-width: 1400px) {
     img {
         max-width: 40%;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    .buttons {
+        max-width: 85%;
     }
 }
 
@@ -46,14 +58,6 @@ img {
 
 .delete-button {
     background: #ee5253;
-}
-
-.text {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 60%;
 }
 
 .text h2, h4, p{
