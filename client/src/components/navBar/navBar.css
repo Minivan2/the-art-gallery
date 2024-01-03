@@ -37,10 +37,10 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  column-gap: 2rem;
 }
 
 .navListItem {
-  margin-right: 20px;
   font-size: 18px;
   font-weight: 400;
   cursor: pointer;
@@ -90,9 +90,11 @@
   height: 0px;
   right: 1rem;
   top: 60px;
-  width: 300px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  width: 250px;
+  background: rgb(235, 235, 235, 0.85);
+  backdrop-filter: blur(5px);
+  border: 2px;
+  border-color:#333;
   border-radius: 10px;
   overflow: hidden;
   transition: height, .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -111,7 +113,7 @@
 
 .navDropdown a {
   text-decoration: none;
-  color: #756AB6;
+  color: #a437db;
   font-weight: 600;
 }
 
