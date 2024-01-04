@@ -130,3 +130,10 @@
     display: block;
   }
 }
+
+@media(max-width: 576px) {
+  .navDropdown {
+    left: 1rem;
+    width: unset;
+  }
+}
