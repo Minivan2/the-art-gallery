@@ -22,7 +22,7 @@ export const NavBar = () => {
         </div>
         <div className="navRight navButtons">
           <i className="navUser fa-solid fa-user"></i>
-          <i className="navToggle fa-solid fa-bars" onClick={() => setMenuOpen(!menuOpen)}></i>
+          <i className={menuOpen ? "navToggle fa-solid fa-xmark" : 'navToggle fa-solid fa-bars'} onClick={() => setMenuOpen(!menuOpen)}></i>
           {menuOpen && (
             <div className="navDropdown open" onClick={close}>
               <li className='navListItem'><a href="home">Home</a></li>
