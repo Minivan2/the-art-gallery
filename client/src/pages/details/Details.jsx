@@ -15,7 +15,7 @@ export const Details = () => {
     if (posts) {
       setPosts(posts)
     }
-  }, [])
+  }, [id])
 
   return (
     <>
