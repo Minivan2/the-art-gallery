@@ -16,7 +16,7 @@ export const Gallery = () => {
                     <h3 className='title'>{item.title} ({item.year})</h3>
                     <h5 className='author'>by {item.creator}</h5>
                     <hr/>
-                    <p className='desc'>{item.desc.slice(0, 180)}</p>
+                    <p className='desc'>{item.desc}</p>
                 </div>
                 <div className="post">
                     <Link to={`/details/${item.id}`} className="link">
