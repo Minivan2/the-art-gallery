@@ -1,12 +1,14 @@
-import Gallery from '../../components/gallery/Gallery'
-import Header from '../../components/header/Header'
 import './home.css'
+import React from 'react'
+import { Hero } from '../../components/hero/Hero'
+import { Gallery } from '../../components/gallery/Gallery'
 
-export default function Home() {
+export const Home = () => {
   return (
     <>
+      {}
       <div className="home">
-        <Header />
+        <Hero />
         <Gallery />
       </div>
     </>

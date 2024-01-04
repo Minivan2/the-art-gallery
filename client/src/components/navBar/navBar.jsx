@@ -1,5 +1,7 @@
 import './navBar.css';
-import imageSrc from '../../assets/images/logo-transparent.png';
+import logo from '../../assets/images/logo-transparent.png';
+import { nav } from "../../assets/data/data"
+import { Link } from "react-router-dom"
 import React, { useState } from "react";
 
 export const NavBar = () => {
@@ -10,14 +12,15 @@ export const NavBar = () => {
   return (
       <nav className='navBar'>
         <div className='navLeft'>
-          <img title="The Art Museum" className='navLogo' src={imageSrc} alt="Company logo" />
+          <img title="The Art Museum" className='navLogo' src={logo} alt='Company logo'/>
         </div>
         <div className="navCenter">
           <ul className="navLinks">
-            <li className='navListItem'><a href="home">Home</a></li>
-            <li className='navListItem'><a href="about">About</a></li>
-            <li className='navListItem'><a href="showcase">Showcase</a></li>
-            <li className='navListItem'><a href="contact">Contact</a></li>
+            {nav.map((link) => (
+              <li key={link.id}>
+                <Link to={link.url}>{link.text}</Link>
+              </li>
+            ))}
           </ul>
         </div>
         <div className="navRight navButtons">
@@ -25,10 +28,13 @@ export const NavBar = () => {
           <i className={menuOpen ? "navToggle fa-solid fa-xmark" : 'navToggle fa-solid fa-bars'} onClick={() => setMenuOpen(!menuOpen)}></i>
           {menuOpen && (
             <div className="navDropdown open" onClick={close}>
-              <li className='navListItem'><a href="home">Home</a></li>
-              <li className='navListItem'><a href="about">About</a></li>
-              <li className='navListItem'><a href="showcase">Showcase</a></li>
-              <li className='navListItem'><a href="contact">Contact</a></li>
+              <ul className="navLinks">
+                {nav.map((link) => (
+                  <li key={link.id}>
+                    <Link to={link.url}>{link.text}</Link>
+                  </li>
+                ))}
+              </ul>
             </div>
             )}
         </div>

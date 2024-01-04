@@ -21,11 +21,11 @@
 }
 
 
-.title, .author, .preview {
+.title, .author, .desc {
     margin: 0.5rem 0rem;
 }
 
-.preview {
+.desc {
     font-size: 15px;
     overflow: hidden;
     text-overflow: ellipsis;

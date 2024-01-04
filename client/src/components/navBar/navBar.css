@@ -40,7 +40,8 @@
   column-gap: 2rem;
 }
 
-.navListItem {
+.navLinks li {
+  text-transform: capitalize;
   font-size: 18px;
   font-weight: 400;
   cursor: pointer;
