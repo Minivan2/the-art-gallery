@@ -28,13 +28,11 @@ export const NavBar = () => {
           <i className={menuOpen ? "navToggle fa-solid fa-xmark" : 'navToggle fa-solid fa-bars'} onClick={() => setMenuOpen(!menuOpen)}></i>
           {menuOpen && (
             <div className="navDropdown open" onClick={close}>
-              <ul className="navLinks">
-                {nav.map((link) => (
-                  <li key={link.id}>
-                    <Link to={link.url}>{link.text}</Link>
-                  </li>
-                ))}
-              </ul>
+              {nav.map((link) => (
+                <li key={link.id}>
+                  <Link to={link.url}>{link.text}</Link>
+                </li>
+              ))}
             </div>
             )}
         </div>
