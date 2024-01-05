@@ -1,4 +1,4 @@
-import './hero.css';
+import './hero.css'
 
 export const Hero = () => {
   return (

@@ -21,7 +21,7 @@ export const Gallery = () => {
                 <div className="post">
                     <Link to={`/details/${item.id}`} className="link">
                         <button className="learn">
-                            Learn More
+                            <span>Learn More</span>
                         </button>
                     </Link>
                 </div>

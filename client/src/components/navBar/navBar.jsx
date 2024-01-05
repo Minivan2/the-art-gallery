@@ -1,8 +1,8 @@
-import './navBar.css';
-import logo from '../../assets/images/logo-transparent.png';
+import './navBar.css'
+import logo from '../../assets/images/logo-transparent.png'
 import { nav } from "../../assets/data/data"
 import { Link } from "react-router-dom"
-import React, { useState } from "react";
+import React, { useState } from "react"
 
 export const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false)

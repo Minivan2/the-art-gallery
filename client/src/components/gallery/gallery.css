@@ -52,15 +52,44 @@
 .post {
     margin-top: auto;
     padding-top: 8px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .post button {
     font-family: inherit;
     border: initial;
     background: initial;
-    background-color: #86B6F6;
-    color: #333;
+    background-color: #3586ff;
+    color: #fff;
     border-radius: 500px;
-    width: 100px;
-    height: 25px;
+    width: 118px;
+    height: 28px;
+    transition: all 0.5s;
+}
+
+.post button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.post button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+}
+
+.post button:hover span {
+    padding-right: 18px;
+}
+
+.post button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
