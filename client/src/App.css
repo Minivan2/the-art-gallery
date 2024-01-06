@@ -1,5 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .App {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }

@@ -20,24 +20,24 @@ export const Details = () => {
   return (
     <>
       {posts ? (
-        <section className='artPost'>
+        <section className='art-post'>
           <div className="post-container">
-            <div className="artImg">
+            <div className="post-left">
               <img src={posts.img} alt=""/>
             </div>
-            <div className="buttons">
-              <button className='edit-button'>
-                <BsPencilSquare />
-              </button>
-              <button className='delete-button'>
-                <AiOutlineDelete />
-              </button>
-            </div>
-            <div className="text">
+            <div className="post-right">
               <h2 className='title'>{posts.title} ({posts.year})</h2>
               <h4 className="author">by {posts.creator}</h4>
               <hr/>
               <p className="description">{posts.desc}</p>
+                <div className="buttons">
+                <button className='edit-button'>
+                  <BsPencilSquare />
+                </button>
+                <button className='delete-button'>
+                  <AiOutlineDelete />
+                </button>
+              </div>
             </div>
           </div>
         </section>
