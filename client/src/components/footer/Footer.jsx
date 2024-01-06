@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 export const Footer = () => {
   return (
-    <section className="footer">
+    <footer>
         <div className='footer-container'>
             <div className="footer-social">
                 <i class="fa-brands fa-twitter"></i>
@@ -14,7 +14,7 @@ export const Footer = () => {
                 <i class="fa-brands fa-youtube"></i>
             </div>
             <div className="footer-menu">
-                <ul className='footer-links'>
+                <ul>
                     {nav.map((link) => (
                     <li key={link.id}>
                         <Link to={link.url}>{link.text}</Link>
@@ -23,7 +23,7 @@ export const Footer = () => {
                 </ul>
             </div>
         </div>
-    </section>
+    </footer>
   )
 }
 
