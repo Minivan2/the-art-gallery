@@ -21,6 +21,24 @@ export const nav = [
     },
 ]
 
+export const slider = [
+    {
+        id: 1,
+        img: "../images/slider/slide-1.jpg",
+        alt: "AI-generated rendering of an eye with paint splashed on",
+    },
+    {
+        id: 2,
+        img: "../images/slider/slide-2.jpg",
+        alt: "AI-generated rendering of a bird with abstract body",
+    },
+    {
+        id: 3,
+        img: "../images/slider/slide-3.jpg",
+        alt: "AI-generated rendering of a woman covered in paper flowers",
+    },
+]
+
 export const post = [
     {
         id: 1,
