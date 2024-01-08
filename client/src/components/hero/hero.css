@@ -5,7 +5,7 @@
 .hero-wrapper {
     position: relative;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .hero-slider {
@@ -19,6 +19,12 @@
     border-radius: 0.5rem;
     max-width: 100%;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+@media(min-width:992px){
+    .hero-wrapper {
+        max-width: 80%;
+    }
 }
 
 .hero-nav-arrows {
@@ -55,7 +61,7 @@
     align-items: center;
     column-gap: 0.5rem;
     margin-top: 1rem;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 .hero-nav-dot {
