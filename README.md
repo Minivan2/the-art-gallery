@@ -1,1 +1,1 @@
-# blog-website
+# the-art-gallery
