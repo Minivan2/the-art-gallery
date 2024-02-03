@@ -44,7 +44,7 @@ export const post = [
         id: 1,
         title: "Mona Lisa",
         year: "1503-1519",
-        creator: "Leonardo da vinci",
+        creator: "Leonardo da Vinci",
         desc: 'This portrait is believed to be of Lisa Gherardini, the wife of Florentine fabric merchant Francesco del Giocondo. In Italian it is known as "La Gioconda", but in English it is commonly referred to as "The Mona Lisa."',
         img: "../images/posts/mona-lisa.jpg"
     },
